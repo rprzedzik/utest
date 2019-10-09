@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="U-Test" basedir="." default="build">
+    <autoloader autoloaderpath="${project.basedir}/vendor/autoload.php"/>
+    <!-- PHP Unit -->
+    <target name="test:unit" description="Executes unit tests.">
+        <echo msg="Running unit tests..."/>
+        <exec command="bin/phpunit -c phpunit.xml.dist"
+              checkreturn="true"
+              logoutput="true"
+              passthru="true"
+        >
+        </exec>
+    </target>
+
+    <!-- PHP Unit coverage report-->
+    <target name="test:unit:coverage" description="Executes unit tests.">
+        <echo msg="Running unit tests..."/>
+        <exec command="bin/phpunit -c phpunit.xml.dist"
+              checkreturn="true"
+              logoutput="true"
+              passthru="true"
+        >
+        </exec>
+    </target>
+</project>
