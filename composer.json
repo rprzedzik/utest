@@ -2,7 +2,8 @@
     "type": "project",
     "license": "mit",
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "ramsey/uuid": "^3.8"
     },
     "require-dev": {
         "phing/phing": "^2.16",

@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace App\Tests\Case2;
+namespace App\Tests\Exercise2;
 
-use App\Case2\Calculator;
+use App\Exercise2\Calculator;
 use PHPUnit\Framework\TestCase;
 
 /**
  */
-class CalculatorTest extends TestCase
+class CaseCalculatorTest extends TestCase
 {
     /**
      * @param float $i
